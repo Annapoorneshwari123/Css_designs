@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>famous person</title>
+    <style>
+         table,th,td{
+            border:2px solid #000000;
+            border-collapse: collapse;
+            padding: 10px;
+            
+        }
+        table{
+            height: 400px;
+            width: 50%;
+            table-layout: fixed;
+           margin: auto;
+           
+        }
+        table td{ 
+            overflow-x: scroll;
+            scrollbar-width: 10px;
+            scroll-margin-inline: 10px;
+            
+        }
+        table td img{
+            width: 200px;
+            height: 100px;
+            
+            
+           
+        }
+        .scroll th{
+            background-color: darkblue;
+            color: #fff;
+        }
+        .scroll tr:nth-child(odd){
+            background-color: rgb(14, 102, 173);
+        }
+        .scroll tr:nth-child(even){
+            background-color: rgb(38, 72, 164);
+        }
+        .scroll tr:nth-child(odd):hover{
+            background-color: #fff;
+        }
+        .scroll tr:nth-child(even):hover{
+            background-color: #060606;
+            color: #fff;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <table class="scroll">
+        <tr>
+            <th>NAME</th>
+            <th>ROLE/TITLE</th>
+            <th>IMAGE</th>
+            <th>NOTABLE CONTRIBUTIONS</th>
+            <th>CURRENT FOCUS</th>
+        </tr>
+        <tr>
+            <td>Elon Musk</td>
+            <td>CEO of Tesla and SpaceX</td>
+            <td><img src="https://cdn.lifehack.org/wp-content/uploads/2015/11/01132845/we-now-have-our-30th-reason-why-elon-musk-is-americas-most-badass-ceo.jpg" alt=""></td>
+            <td>Electric vehicles, space exploration</td>
+            <td>Tesla’s expansion, Mars colonization</td>
+        </tr>
+        <tr>
+            <td>Bill Gates</td>
+            <td>Co-chair of the Bill & Melinda Gates Foundation</td>
+            <td><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDyEIb8sEstXEJLOjRco2h1lPtfHI0qnyhqMqKKLZhtTW5LMRPepMIs5pTBdFsgSKrj4TKq-hZiakyfQWWl7cqp7bvAX6M_UZS5faZOStp-3w86FtL-2tpYXEwCTlt4bhQ9HxSX6PQJAjO-T3mm0ho5GQiVgj9qh-gODLYFEGEvvbuQ13pH0amKEB1y9k/s680/BillGates-Headshot-2022.jpg" alt=""></td>
+            <td>Philanthropy, global health initiatives</td>
+            <td>Climate change, global health</td>
+        </tr>
+        <tr>
+            <td>Tim Cook</td>
+            <td>CEO of Apple</td>
+            <td><img src="https://th.bing.com/th/id/OIP.79CSNVPfhmggf1CGoAGUNAHaE8?rs=1&pid=ImgDetMain" alt=""></td>
+            <td>Consumer electronics, services</td>
+            <td>Augmented reality, sustainability</td>
+        </tr>
+        <tr>
+            <td>Mark Zuckerberg</td>
+            <td>CEO of Meta (formerly Facebook)</td>
+            <td><img src="https://th.bing.com/th/id/OIP.vl-iKIL47Rmp0AJwJpTsTQHaFj?rs=1&pid=ImgDetMain" alt=""></td>
+            <td>Social media, virtual/augmented reality</td>
+            <td>Metaverse development, AI integration</td>
+        </tr>
+        <tr>
+            <td>Sundar Pichai</td>
+            <td>CEO of Alphabet Inc.</td>
+            <td><img src="https://th.bing.com/th/id/OIP.gp1OKoE4zoLCCucevnQ6zgHaF1?rs=1&pid=ImgDetMain" alt=""></td>
+            <td>Search engines, AI development</td>
+            <td>AI advancements, cloud services</td>
+        </tr>
+        <tr>
+            <td>Satya Nadella</td>
+            <td>CEO of Microsoft</td>
+            <td><img src="https://s1.elespanol.com/2023/11/23/actualidad/811929504_237870839_1706x960.jpg" alt=""></td>
+            <td>Cloud computing, enterprise software</td>
+            <td>AI integration, cloud innovations</td>
+        </tr>
+        <tr>
+            <td>Jeff Bezos</td>
+            <td>Founder of Amazon</td>
+            <td><img src="https://images.livemint.com/img/2023/03/22/960x540/JEFF_BEZOS_1679456264524_1679456285998_1679456285998.jpg" alt=""></td>
+            <td>E-commerce, cloud computing (AWS)</td>
+            <td>Blue Origin (space exploration), philanthropy</td>
+        </tr>
+    </table>
+</body>
+</html>
